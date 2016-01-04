@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+html, body {
+  padding: 0;
+  margin: 0;
+}
+#content {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+#loader {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 40px;
+  opacity: 1;
+  transition: opacity 1s ease;
+  background: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+#progress {
+  position: absolute;
+  top: 40vh;
+  left: 47%;
+}
+#line {
+  position: absolute;
+  top: 50vh;
+  left: 0px;
+  height: 2px;
+  background-color: white;
+  width: 10px;
+}
